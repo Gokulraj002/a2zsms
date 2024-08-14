@@ -1,0 +1,26 @@
+/* terms and conditons  */
+
+.terms-and-condition,
+.privacy-and-policy {
+    margin-top: 50px;
+    padding: 5em;
+}
+
+.terms-and-condition h4,
+.privacy-and-policy h4 {
+    color: rgb(5, 183, 242);
+    margin: 8px auto;
+}
+
+.terms-and-condition ul,
+.privacy-and-policy ul {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    list-style: disc;
+    margin: 10px;
+}
+
+.privacy-and-policy ul li a {
+    color: red;
+}
